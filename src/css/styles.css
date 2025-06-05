@@ -37,7 +37,6 @@ nav a:hover {
 }
 
 main {
-  height: 100vh;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,18 +49,19 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
+  font-weight: 600;
 }
 
 .gradient-background {
   background: linear-gradient(300deg, #000080, #4d4dff, #000000);
   background-size: 180% 180%;
-  animation: gradient-animation 10s ease infinite;
+  animation: gradient-animation 7.5s ease infinite;
   color: white;
-  padding: 80px;
+  text-align: justify;
+  padding: 25px;
   border-radius: 10px;
   width: 80%;
-  max-width: 600px;
-  text-align: justify;
+  max-width: 50%;
   line-height: 25px;
 }
 
@@ -78,21 +78,19 @@ footer {
 }
 
 .gradient-background h2 {
-  font-size: 2em;
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 
 .gradient-background p {
-  font-size: 1.1em;
-  margin-bottom: 10px;
+  font-size: 1.1rem;
   line-height: 1.7;
 }
 
 .gradient-background-footer {
   background: linear-gradient(300deg, #000080, #4d4dff, #000000);
   background-size: 180% 180%;
-  animation: gradient-animation 10s ease infinite;
-  color: white;
+  animation: gradient-animation 7.5s ease infinite;
 }
 
 @keyframes gradient-animation {
@@ -110,5 +108,5 @@ footer {
 address a {
   text-decoration: none;
   color: #ffdb66;
-  font-weight: bold;
+  font-weight: 500;
 }
