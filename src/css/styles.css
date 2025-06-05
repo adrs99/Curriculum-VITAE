@@ -18,6 +18,11 @@ header {
   box-shadow: 0 0 5px;
 }
 
+ul li {
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
 h1 {
   color: #000066;
   font-size: 40px;
